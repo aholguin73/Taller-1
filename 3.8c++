@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int mins=0, segs=0, numeroIng;
+    cout<<"Ingrese la cantidad de segundos"<<endl;
+    cin>>numeroIng;
+    segs = numeroIng%60;
+    mins = numeroIng/60;
+    cout<< "La cantida de minutos es: "<< mins <<" : "<< segs<<endl;
+}
