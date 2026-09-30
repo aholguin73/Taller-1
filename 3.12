@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float num;
+    cout<<"Ingrese un numero";
+    cin>>num;
+    int numero = (int)num; 
+    char character = (char)num;
+    cout<<numero <<character<<endl;
+
+    return 0;
+}
