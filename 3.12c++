@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main(){
+ 
+ double numero;
+ int decimales; 
+ 
+    cout << "ingresa el numero a convertir: " <<endl;
+    cin >>numero;
+    
+    cout << "¿cuantas decimales quieres ver?:  "<<endl;
+    cin >> decimales;
+    
+    cout<< fixed << setprecision (decimales);
+    
+    cout<< "El numero con " <<decimales<< "decimales es: " <<numero << endl;
+
+    return 0;
+}
