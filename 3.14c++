@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    int a,b,c;
+    
+    cout << "Ingresa el primer numero: ";
+    cin >> a;
+    
+    cout << "Ingresa el segundo numero: ";
+    cin >> b;
+    
+    cout << "Ingresa el tercer numero: ";
+    cin >> c;
+    
+    
+    if (a <= b && b <= c){
+        cout<<"Estan ordenados de menor a mayor. "<< endl;
+    }
+    else if (a >= b && b >= c){
+        cout << "Estan ordenados de mayor a menor. " << endl;
+    }
+    else{
+        cout << "No estan en orden. " << endl;
+    }
+    
+    return 0;
+}
